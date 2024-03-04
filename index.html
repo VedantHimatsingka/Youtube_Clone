@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <!-- LEFT-SECTION -->
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <!-- MIDDLE-SECTION -->
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search using your voice</div>
+        </button>
+      </div>
+      <!-- RIGHT-SECTION -->
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">99+</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/myImage.png">
+      </div>
+    </header>
+
+
+    <!-- NAV SECTION -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/shorts.svg">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+
+    <!-- MAIN SECTION -->
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_1.jpg">
+            <div class="video-time">6:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kun Faya Kun | Rockstar | Ranbir Kapoor
+              </p>
+              <p class="video-author">
+                A.R. Rahman | Javed Ali | Mohit Chauhan
+              </p>
+              <p class="video-stats">
+                379M+ views &#183; 12 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_2.jpg">
+            <div class="video-time">4:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Khairiyat | Chhichhore | Sushant Singh Rajput | Shraddha Kappor
+              </p>
+              <p class="video-author">
+                Nitesh Tiwari | Arijit Singh | Pritam
+              </p>
+              <p class="video-stats">
+                300M+ views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_3.jpg">
+            <div class="video-time">4:08</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Pehle Bhi Main | Animal | Ranbir Kapoor | Tripti Dimri
+              </p>
+              <p class="video-author">
+                Sandeep V | Vishal M | Raj S | Bhushan K
+              </p>
+              <p class="video-stats">
+                400M+ views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_4.jpg">
+            <div class="video-time">4:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kaise Hua | Kabir Singh | Shahid Kappor | Kiara Kappor
+              </p>
+              <p class="video-author">
+                Vishal Mishra | Manoj Muntashir
+              </p>
+              <p class="video-stats">
+                100M+ views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_5.jpg">
+            <div class="video-time">6:01</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Phir Bhi Tumko Chaahunga | Half-Girlfriend | Arjun Kappor | Shraddha Kappor
+              </p>
+              <p class="video-author">
+                Arijit Singh | Mithoon | Manoj M
+              </p>
+              <p class="video-stats">
+                1B+ views &#183; 7 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_6.jpg">
+            <div class="video-time">6:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Humnava Mere | Manoj Muntashir | Rocky - Shiv | Bhushan Kumar
+              </p>
+              <p class="video-author">
+                Jubin Nautiyal
+              </p>
+              <p class="video-stats">
+                950M+ views &#183; 5 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_7.jpg">
+            <div class="video-time">4:01</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                KAUN TUJHE | M.S. DHONI -THE UNTOLD STORY | Sushant Singh Rajput | Disha Patani
+              </p>
+              <p class="video-author">
+                Amaal Mallik Palak
+              </p>
+              <p class="video-stats">
+                578M+ views &#183; 8 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_8.jpg">
+            <div class="video-time">3:43</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Tera Zikr
+              </p>
+              <p class="video-author">
+                Darshan Raval
+              </p>
+              <p class="video-stats">
+                250M+ views &#183; 7 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_9.jpg">
+            <div class="video-time">3:40</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kabhii Tumhhe | Shershaah | Sidharth Malhotra | Kiara Advani
+              </p>
+              <p class="video-author">
+                Javed-Mohsin | Darshan Raval | Rashmi V
+              </p>
+              <p class="video-stats">
+                147M+ views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_10.jpg">
+            <div class="video-time">3:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Sultan | KGF | Yash | Srinidhi Shetty
+              </p>
+              <p class="video-author">
+                Ravi Basrur
+              </p>
+              <p class="video-stats">
+                87M+ views &#183; 7 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_11.jpg">
+            <div class="video-time">3:58</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Mere Rang Mein
+              </p>
+              <p class="video-author">
+                Suryaveer
+              </p>
+              <p class="video-stats">
+                51M+ views &#183; 5 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail_12.jpg">
+            <div class="video-time">3:44</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/music_logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Gulabi Aankhen
+              <p class="video-author">
+                Sanam
+              </p>
+              <p class="video-stats">
+                200M+ views &#183; 9 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+  </body>
+
+</html>
